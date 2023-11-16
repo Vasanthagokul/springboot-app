@@ -15,3 +15,8 @@ spec:
             name: harness11
             port:
               number: 80
+# Below lines to be uncommented if tls certificate is present and stored (select which to uncomment then: ctrl + /)
+  # tls:
+  # - secretName: harness-tls-cert
+  #   hosts:
+  #   - harness.virtusa.dev
